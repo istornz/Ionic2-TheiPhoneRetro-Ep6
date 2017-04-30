@@ -21,10 +21,10 @@ Bien entendu, il est parfaitement possible de suivre cet épisode sous Windows, 
 ## Au programme 
 
 #### Partie 1
-- Comment bien choisir une API ? (piège, danger etc.).
-- Présentation de "News API" (https://newsapi.org/)
+- Comment bien choisir une API ? (pièges, dangers etc.).
+- Présentation de [**News API**](https://newsapi.org/)
 - Étude et analyse de la documentation du web-service.
-- Création et test des requêtes HTTP via PostMan.
+- Création et tests des requêtes HTTP via PostMan.
 
 #### Partie 2
 - Création d'un service injectable.
