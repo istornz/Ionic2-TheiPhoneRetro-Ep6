@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      TheiPhoneRetro - Episode 6
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-refresher (ionRefresh)="getArticles($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-card *ngFor="let article of news.articles">
+    <img [src]="article.urlToImage"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{ article.title }}
+        </ion-card-title>
+      <p>
+        {{ article.description }}
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Propulsé par News API</ion-title>
+  </ion-toolbar>
+</ion-footer>
